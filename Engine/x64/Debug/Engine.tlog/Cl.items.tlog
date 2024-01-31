@@ -1,11 +1,14 @@
-D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Graphics\FrameAnimation.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\FrameAnimation.obj
+D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Shader.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\Shader.obj
+D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Scene.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\Scene.obj
+D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\GameState.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\GameState.obj
+D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Core\Graphics\FrameAnimation.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\FrameAnimation.obj
 D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Core\Camera.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\Camera.obj
 D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Core\InputManager.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\InputManager.obj
-D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Graphics\SpriteAnimation.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\SpriteAnimation.obj
+D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Core\Graphics\SpriteAnimation.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\SpriteAnimation.obj
 D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Pawn.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\Pawn.obj
 D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Core\GameEngine.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\GameEngine.obj
 D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\InitError.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\InitError.obj
-D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Graphics\Renderer.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\Renderer.obj
+D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Core\Graphics\Renderer.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\Renderer.obj
 D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\SDLWrapper.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\SDLWrapper.obj
 D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Core\Window.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\Window.obj
-D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Graphics\TextureManager.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\TextureManager.obj
+D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\Source Files\Core\Graphics\TextureManager.cpp;D:\IPLeiria\Advanced Game Programming\2023\Projeto_Exame_2024\Engine\x64\Debug\TextureManager.obj

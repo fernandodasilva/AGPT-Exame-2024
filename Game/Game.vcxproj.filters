@@ -13,60 +13,84 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{a6a20127-1d37-4638-8fff-7ffc2839bd2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemies">
+      <UniqueIdentifier>{e01e1b9c-9c39-4aef-a749-506c17f37fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapons">
+      <UniqueIdentifier>{28ab815e-fa1a-48b7-9f7a-def588bd0bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenery">
+      <UniqueIdentifier>{ea500306-8a5f-4b35-9615-c1c5ea9eb12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{85ab8e80-9ece-422d-a886-57144c09cb7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Powerups">
+      <UniqueIdentifier>{f32a32e1-d212-4cd4-a820-9f2d3e76835f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{448362dc-bc4f-46ee-841f-218f83ca4a9a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source Files\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source Files\GameObjects\Spaceship.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameStates\Intro.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameStates\Title.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameStates\LevelStage1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameObjects\Enemies\Enemy.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Source Files\GameObjects\Enemies\Drone.cpp">
+      <Filter>Source Files\Enemies</Filter>
     </ClCompile>
     <ClCompile Include="Source Files\GameObjects\Enemies\Loner.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameObjects\Enemies\Rusher.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameObjects\Enemies\Drone.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameObjects\Companion.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameObjects\Powerups\Powerup.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameObjects\Powerups\ShieldPowerUp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameObjects\Powerups\WeaponPowerUp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameObjects\Scenery\StoneAsteroid.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameObjects\Scenery\MetalAsteroid.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source Files\GameObjects\Weapons\Projectile.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Enemies</Filter>
     </ClCompile>
     <ClCompile Include="Source Files\GameObjects\Weapons\LonerProjectile.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameObjects\Weapons\Projectile.cpp">
+      <Filter>Source Files\Weapons</Filter>
     </ClCompile>
     <ClCompile Include="Source Files\GameObjects\Weapons\Missile.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameObjects\Enemies\Rusher.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameObjects\Enemies\Enemy.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameObjects\Scenery\StoneAsteroid.cpp">
+      <Filter>Source Files\Scenery</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameObjects\Scenery\MetalAsteroid.cpp">
+      <Filter>Source Files\Scenery</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameStates\Intro.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameStates\LevelStage1.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameStates\Title.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameObjects\Powerups\Powerup.cpp">
+      <Filter>Source Files\Powerups</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameObjects\Powerups\ShieldPowerUp.cpp">
+      <Filter>Source Files\Powerups</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameObjects\Powerups\WeaponPowerUp.cpp">
+      <Filter>Source Files\Powerups</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameObjects\Spaceship.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameObjects\Companion.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -120,6 +144,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Headers\Missile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

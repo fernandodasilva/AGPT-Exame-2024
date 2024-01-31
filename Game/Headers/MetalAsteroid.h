@@ -1,5 +1,6 @@
 #pragma once
 #include "../Engine/Source Files/Headers/Entities/GameObject.h"
+
 class MetalAsteroid :
     public GameObject
 {
@@ -8,9 +9,13 @@ public:
     void Update(float deltaTime);
     void Clean();
 
+    void RotateAndTranslate(b2Vec2& vector, b2Vec2& center, float angle);
+
+
 private:
-    //position
+    glm::vec2 position;
     //collider
-    //size
+    int size;
+    b2Body body;
 };
 

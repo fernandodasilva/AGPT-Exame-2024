@@ -14,9 +14,9 @@ public:
 private:
     int speed;
     SDL_Texture* currentImage;
+    glm::vec2 position;
 
 
-    //position
     //collider
     //sprite "EnWeap6.bmp"
     //Explosion sprite "explode16.bmp"

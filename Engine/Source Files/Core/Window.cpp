@@ -10,9 +10,35 @@ Window::Window(std::string title, int windowWidth, int windowHeight)
 	if (window == nullptr)
 	{
 		throw InitError();
+		SDL_Quit();
+	}
+
+	if (!gladLoadGLLoader((GLADloadproc)SDL_GL_GetProcAddress))
+	{
+		throw InitError();
+		SDL_Quit();
 	}
 }
+
+
  
+
+void Window::CreateContext(SDL_Window* window)
+{
+	context = SDL_GL_CreateContext(window);
+	//this might be important because of the Get Context function
+	SDL_GL_MakeCurrent(window, context);
+}
+
+void Window::GetContext(SDL_Window* window)
+{
+	SDL_GL_GetCurrentContext();
+}
+
+void Window::DeleteContext(SDL_Window* window)
+{
+	SDL_GL_DeleteContext(window);
+}
 
 SDL_Surface* Window::getSurface()
 {

@@ -96,7 +96,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\x64;..\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\x64;..\x64\Debug;$(SolutionDir)include\glad\include;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Engine.lib;SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -154,6 +154,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Level.cpp" />
     <ClCompile Include="Source Files\GameObjects\Weapons\Missile.cpp" />
     <ClCompile Include="Source Files\GameObjects\Weapons\LonerProjectile.cpp" />
     <ClCompile Include="Source Files\GameObjects\Weapons\Projectile.cpp" />
@@ -191,6 +192,7 @@
     <ClInclude Include="Headers\Projectile.h" />
     <ClInclude Include="Headers\LonerProjectile.h" />
     <ClInclude Include="Headers\Missile.h" />
+    <ClInclude Include="Level.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Engine\Engine.vcxproj">

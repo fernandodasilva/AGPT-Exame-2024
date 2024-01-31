@@ -3,5 +3,7 @@
 class Enemy :
     public GameObject
 {
+private:
+    int hp;
 };
 

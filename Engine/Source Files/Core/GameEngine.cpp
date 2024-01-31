@@ -43,12 +43,20 @@ bool GameEngine::Initialize()
 		SDL_Log("Failed to initialise SDL: %s", SDL_GetError());
 		return false;
 	}
+
+	SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
+	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
+	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 2);
+	SDL_GL_SetAttribute(SDL_GL_STENCIL_SIZE, 8);
+
 	m_window = SDL_CreateWindow("TEST", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, SCREEN_WIDTH, SCREEN_HEIGHT, 0);
 	if (m_window == nullptr)
 	{
 		SDL_Log("Failed to create window: %s", SDL_GetError());
 		return false;
 	}
+
+	SDL_GLContext context = SDL_GL_CreateContext(m_window);
 
 	m_renderer = SDL_CreateRenderer(m_window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 	if (m_renderer == nullptr)

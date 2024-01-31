@@ -19,6 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Source Files\Headers\Entities\GameObject.cpp" />
+    <ClCompile Include="Source Files\Scene.cpp" />
     <ClCompile Include="Source Files\GameState.cpp" />
     <ClCompile Include="Source Files\Core\Graphics\FrameAnimation.cpp" />
     <ClCompile Include="Source Files\Core\Camera.cpp" />
@@ -33,6 +36,8 @@
     <ClCompile Include="Source Files\Core\Graphics\TextureManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Source Files\Headers\Entities\Scene.h" />
     <ClInclude Include="Source Files\Headers\Entities\GameState.h" />
     <ClInclude Include="Source Files\Headers\FrameAnimation.h" />
     <ClInclude Include="Source Files\Headers\Entities\Camera.h" />
@@ -140,7 +145,7 @@
       <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>..\Source Files\Headers;$(SolutionDir)include\Box2D;$(SolutionDir)include\SDL2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Source Files\Headers;$(SolutionDir)include\Box2D;$(SolutionDir)include\SDL2;$(SolutionDir)include\glm;$(SolutionDir)include\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

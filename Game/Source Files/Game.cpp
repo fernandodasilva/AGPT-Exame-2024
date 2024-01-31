@@ -7,27 +7,10 @@
 #include "../Game/Headers/Spaceship.h"
 #include "../Engine/Source Files/Headers/Entities/GameState.h"
 
-//int main(int argc, char** argv)
-//{
-//    GameEngine engine;
-//
-//    engine.init("Xennon Clone!!!", 640, 480);
-//
-//    //Level level = new Level();
-//
-//    //engine.SetMainLevel(Level);
-//
-//    //Spaceship s = new Spaceship();
-//
-//    //level.addActor(s);
-//    //level.addActor(enemy1);
-//    //level.addActor(enemy2);
-//
-//
-//    engine.start();
-//
-//    return 0;
-//}
+#include <../include/glm/gtc/matrix_transform.hpp>
+#include <../include/glm/gtc/type_ptr.hpp>
+#include "../include/SDL2/SDL.h"
+
 
 GameState* currentState = nullptr;
 GameState* nextState = nullptr;
@@ -36,6 +19,9 @@ Spaceship* player = nullptr;
 int main(int argc, char** argv)
 {
 	GameEngine::GetEngineInstance()->Initialize();
+
+	SDL_ShowCursor(SDL_DISABLE);
+
 	player = new Spaceship(new Properties("Ship1.bmp", 100, 200, 448, 64, SDL_FLIP_NONE));
 
 	while (GameEngine::GetEngineInstance()->IsRunning())

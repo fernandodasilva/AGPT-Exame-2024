@@ -1,5 +1,5 @@
-#include "../Headers/TextureManager.h"
-#include "../Headers/GameEngine.h"
+#include "../Engine/Source Files/Headers/TextureManager.h"
+#include "../Engine/Source Files/Headers/GameEngine.h"
 #include <iostream>
 
 TextureManager* TextureManager::s_instance = nullptr;

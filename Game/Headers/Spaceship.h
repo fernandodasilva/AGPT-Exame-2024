@@ -3,6 +3,8 @@
 #include "Headers/SpriteAnimation.h"
 #include "Companion.h"
 #include "Missile.h"
+#include "../include/glm/glm.hpp"
+#include "../include/Box2D/box2d/box2d.h"
 
 class Spaceship :
     public Pawn
@@ -22,10 +24,11 @@ public:
 protected:
 
 private:
-	//position
+	glm::vec2 position;
 	int speed;
 	//input?!
-	//position to fire projectiles?
+	glm::vec2 weaponPosition;
+	b2Body* rigidBody2D;
 	//collider
 	//projectile status
 	int currentHealth;
@@ -33,6 +36,6 @@ private:
 	SpriteAnimation* m_animation;
 	int numberOfCompanions;
 	SDL_Texture* currentImage;
-
+	int FrameWidth; int FrameHeight;
 };
 

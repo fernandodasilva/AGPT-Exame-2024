@@ -14,13 +14,12 @@ private:
     const int lightPower = 10;
     const int mediumPower = 20;
     const int highPower = 40;
-
+    glm::vec2 position;
     //type (light, mid, heavy)
     //sprite
     //power (10, 20, 40)
     //speed
     //explosion sprite
-    //position
     //collider
 };
 
